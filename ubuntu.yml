@@ -2,9 +2,5 @@
 - hosts: 127.0.0.1
   connection: local
   become: true
-  vars:
-    packages:
-      - dnsdist
-      - bind9
   roles:
     - apt
