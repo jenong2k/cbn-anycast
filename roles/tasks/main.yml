@@ -12,4 +12,5 @@
       - dnsdist
       - pdns-recursor
       - unbound
+      - frr
     state: latest
